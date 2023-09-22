@@ -1,0 +1,7 @@
+1Asegúrate de estar en el mismo directorio que el Dockerfile.
+2Abre una terminal o línea de comandos.
+3Ejecuta el siguiente comando para construir la imagen:
+ docker build -t 06_ErickPortuguez .
+4Utiliza este comando para crear y ejecutar el contenedor basado en la imagen:
+ docker run -it --name 06_ErickPortuguez_contenedor 06_ErickPortuguez
+ docker run -it --name 06_erickportuguez_contenedor 06_erickportuguez
